@@ -1,0 +1,42 @@
+## Cardgames
+
+Skat
+MauMau
+Best Drinking Game
+Poker
+
+Uno
+Dominion
+Magic
+
+## genereller Aufbau
+
+Anmeldung
+
+
+
+
+
+## MVP (1.0)
+
+Namenseingabe
+3 Spieler connecten zum Server
+Skatkarten werden korrekt verteilt nach klick auf "Geber"
+Durch klicken auf Karte wird diese gespielt
+Durck klicken auf Skat wird dieser aufgenommen
+(Reizen außerhalb des games)
+(jeder muss selber drauf achten was er spielt und wann er dran ist)
+(gewinner nimmt stich durch klicken)
+
+
+## 1.1
+Reizhilfe
+Schreibhilfe ingame
+
+## 1.2
+Stichgewinner wird berechnet nach Angabe des Spiels
+Es kann immer nur der ausspielen der dran ist (einstellbar)
+
+## 1.3
+Es wird automatisch geschrieben
+
