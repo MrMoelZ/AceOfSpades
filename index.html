@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>AceOfSpades</title>
+</head>
+<body>
+    <div>
+        <h1>Welcome to MrMoelZ's superduper Cardgame Site</h1>
+        <h3>Enjoy the game</h3>
+        <div>
+            <form action="/register" method="post">
+                Enter Name: <input type="text" id="nameinput" name="name" placeholder="Sagat">
+                <input type="submit" value="GO" onclick="setUser()">
+            </form>
+        </div>
+    </div>
+    <script>
+        function setUser() {
+            let name = document.querySelector('#nameinput').value;
+            localStorage.setItem('user', name);
+        }
+    </script>
+</body>
+</html>
