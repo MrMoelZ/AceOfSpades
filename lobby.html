@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>AceOfSpades - Lobby</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Lobby</h1>
+        <div id="me">
+            {{name}} <span class="light">({{id}})</span>
+            <button type="submit" @click="logout" value="logout">LogOut</button>
+        </div>
+        <div id="user_list" v-for="u of users">
+            {{u.name}} <span class="light">({{u.id}})</span>
+        </div>
+        <div id="game_list" v-for="g of games">
+            {{g}}
+            <button @click="start(g.id)" value="Spiel starten">Spiel starten</button>
+        </div>
+        <div>
+            <button @click="create" value="Spiel erstellen">Spiel erstellen</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="./lobby.js"></script>
+</body>
+</html>

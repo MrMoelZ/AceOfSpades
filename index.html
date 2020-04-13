@@ -14,6 +14,9 @@
         </div>
     </div>
     <script>
+        window.onload = () => {
+            localStorage.clear();
+        }
         function setUser() {
             let name = document.querySelector('#nameinput').value;
             localStorage.setItem('user', name);

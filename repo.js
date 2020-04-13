@@ -1,8 +1,8 @@
 module.exports = {
     a: () => {console.log('a')},
     b: () => {console.log('b')},
-    players: [],
-    skat: [],
+    lobby: [],
+    users: [],
     players_id: 0,
     cards: [
         {
@@ -263,7 +263,18 @@ module.exports = {
             image: 'cj.png'
         }
     ],
-    stack: [
-
-    ]
 }
+
+
+//LOBBY
+//stack (array of ids)
+//skat (array of ids)
+//players (array of objs)
+//
+
+//PLAYERS
+//id
+//name
+//hand
+//tricks
+
